@@ -8,4 +8,4 @@ while (!place_meeting(x, y, oParSolid)) {
 }
 
 // Ovaj komentar je s DELLovog laptopa
-// I ovaj
+// I ovaj bok bok
