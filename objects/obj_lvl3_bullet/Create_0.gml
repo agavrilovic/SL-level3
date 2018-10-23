@@ -1,0 +1,1 @@
+int_bulletSpeed = 40;

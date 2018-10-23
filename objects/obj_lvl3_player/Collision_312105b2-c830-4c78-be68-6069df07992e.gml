@@ -11,15 +11,19 @@ if (obj_lvl3_controller.bool_stopCameraWhenCollided == true) {
 }
 	
 // Player no longer follows camera, no longer moves, no longer changes angle
-bool_movingWithCamera = false;
-int_speed = 0;
-int_angleSpeed = 0;
-int_hsp = obj_lvl3_controller.int_roadSpeed;
+//bool_movingWithCamera = false;
+//int_speed = 0;
+//int_angleSpeed = 0;
+//int_hsp = obj_lvl3_controller.int_roadSpeed;
 	
 // Car no longer moves (set speed to speed of the road), also set it to crashed
+// V2: CAR SPINS OUT
 with(other) {
-	int_hsp = obj_lvl3_controller.int_roadSpeed; 
-	bool_crashed = true;
+	//int_hsp = obj_lvl3_controller.int_roadSpeed; 
+	if (bool_crashed == false) {
+		int_hsp -= 15;
+		bool_crashed = true;
+	}
 }
 
 // Other objects (which are not crashed yet) should move along the same/new road speed
