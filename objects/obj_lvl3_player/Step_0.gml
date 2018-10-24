@@ -1,37 +1,40 @@
+// Standard movement
 x += bool_movingWithCamera*obj_lvl3_controller.int_basespeed + int_hsp;
 
-if (keyboard_check(vk_left) || keyboard_check(ord("A"))) {
+// Check where player wants to move
+if (scr_lvl3_checkDeviceDirection(180,0)) {
 	x -= int_speed;
 }
-if (keyboard_check(vk_right)|| keyboard_check(ord("D"))) {
+if (scr_lvl3_checkDeviceDirection(0,0)) {
 	x += int_speed;
 }
 
-if (keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"))) {
+if (scr_lvl3_checkDeviceDirection(270,1)) {
 	bool_down = true;
 	bool_up = false;
 	image_angle -= int_angleSpeed;
 }
-if (keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"))) {
+if (scr_lvl3_checkDeviceDirection(90,1)) {
 	bool_up = true;
 	bool_down = false
 	image_angle += int_angleSpeed;
 }
-if (keyboard_check_released(vk_down)|| keyboard_check_released(ord("S"))) {
+if (scr_lvl3_checkDeviceDirection(270,-1)) {
 	bool_down = false;
-	if (keyboard_check(vk_up)) {
+	if (scr_lvl3_checkDeviceDirection(90,0)) {
 		bool_up = true;
 		image_angle += int_angleSpeed;
 	}
 }
-if (keyboard_check_released(vk_up)|| keyboard_check_released(ord("W"))) {
+if (scr_lvl3_checkDeviceDirection(90,-1)) {
 	bool_up = false;
-	if (keyboard_check(vk_down)) {
+	if (scr_lvl3_checkDeviceDirection(270,0)) {
 		bool_down = true;
 		image_angle -= int_angleSpeed;
 	}
 }
 
+// Move according to selected direction
 if (bool_down) {
 	if (y<950) {
 		y += int_speed;
@@ -81,10 +84,12 @@ if (int_health<=0){
 
 //Activate enemy when tripping the line
 if (place_meeting(x,y,obj_lvl3_line)) {
-    if (bool_tripped = false){
+    if (bool_tripped = false) {
 		bool_tripped = true;
 		obj_lvl3_enemy.int_hsp = obj_lvl3_controller.int_roadSpeed + obj_lvl3_enemy.int_regularSpeed;
 		instance_create_layer(obj_lvl3_enemy.x,obj_lvl3_enemy.y, "Instances", obj_lvl3_shooter);
-         }
     }
-    else bool_tripped = false;
+}
+else {
+	bool_tripped = false;
+}
