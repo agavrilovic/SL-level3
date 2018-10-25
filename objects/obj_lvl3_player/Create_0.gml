@@ -16,5 +16,9 @@ initfiringdelay = 15;
 firingdelay = initfiringdelay;
 
 int_health = 10;
+int_directionalHealthUp = 3;
+int_directionalHealthDown = 3;
+int_directionalHealthBack = 3;
+int_directionalHealthFront = 3;
 
 bool_tripped = false;
