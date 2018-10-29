@@ -1,1 +1,1 @@
-int_bulletImpulse = 8000;
+int_bulletSpeed = 40;

@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 int_regularSpeed = -15;
-phy_speed_x = obj_lvl3_road.int_hsp + int_regularSpeed;
+int_hsp = obj_lvl3_road.int_hsp + int_regularSpeed;
