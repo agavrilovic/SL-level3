@@ -1,6 +1,8 @@
-event_inherited();
+bool_crashed = false;
 int_regularSpeed = 40;
-int_hsp = obj_lvl3_controller.int_roadSpeed + int_regularSpeed;
+phy_speed_x = obj_lvl3_controller.int_roadSpeed + int_regularSpeed;
+
+int_brakeForce = 20000; //for hitting the brakes
 
 bool_below = false;
 bool_above = false;

@@ -1,3 +1,6 @@
-/// @description Restart room
+/// @description Restart
+
+	
+
 
 game_restart();
