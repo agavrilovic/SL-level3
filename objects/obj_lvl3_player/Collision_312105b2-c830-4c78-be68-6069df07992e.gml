@@ -4,7 +4,7 @@ bool_damageUp = false;
 bool_damageDown = false;
 bool_damageBack = false;
 bool_damageFront = false;
-int_directionTowardsCollider = point_direction(x,y, other.x, other.y);
+int_directionTowardsCollider = point_direction(x+sprite_width/2,y, other.x, other.y);
 if ((int_directionTowardsCollider > 30 ) && (int_directionTowardsCollider < 150 )) other.bool_below = true; bool_damageUp = true;
 if ((int_directionTowardsCollider > 210 ) && (int_directionTowardsCollider < 330 )) other.bool_above = true; bool_damageDown = true;
 if ((int_directionTowardsCollider > 150 ) && (int_directionTowardsCollider < 210 )) other.bool_front = true; bool_damageBack = true;
