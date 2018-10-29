@@ -59,6 +59,6 @@ if (obj_lvl3_controller.bool_stopCameraWhenCollided == true) {
 }
 	
 // Restart game after animation is done
-if (alarm[0] == -1) {
-	alarm[0] = room_speed*4;
-}
+//if (alarm[0] == -1) {
+//	alarm[0] = room_speed*4;
+//}
