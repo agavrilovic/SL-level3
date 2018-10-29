@@ -22,7 +22,7 @@ if (bool_damageFront && !other.bool_crashed){
 	int_directionalHealthFront -=1;	
 }
 if (bool_damageBack && !other.bool_crashed){
-	int_directionalHealthBack -=1;	
+	int_directionalHealthBack -=1;
 }
 
 	

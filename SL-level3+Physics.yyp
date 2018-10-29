@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "01d6cb91-749c-41d2-a8c9-a6fe4073e721",
+            "Value": {
+                "id": "2120f8f9-9960-4e7e-ab5f-c66c9c6f649a",
+                "resourcePath": "sprites\\spr_lvl3_02_Bumper_02_Front_0_Damage\\spr_lvl3_02_Bumper_02_Front_0_Damage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "05351bd3-cdf9-4749-8bf6-f201112ffcba",
             "Value": {
                 "id": "46ffd826-d6cc-48b7-b22f-20ac16c20dcb",
@@ -39,18 +47,10 @@
             }
         },
         {
-            "Key": "07e26383-9c83-407c-a971-5a8ad4fb0af9",
+            "Key": "08e9e8cd-4a66-422a-8e07-899d4aa4fc90",
             "Value": {
-                "id": "6455f012-2d79-44b5-bac6-7166c5950c35",
-                "resourcePath": "sprites\\spr_lvl3_06_Player_01_Head\\spr_lvl3_06_Player_01_Head.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "0fb1ff33-6769-466f-bdee-72f3a5532fad",
-            "Value": {
-                "id": "76181c85-ad2a-44e0-8cb6-e5d93b24119b",
-                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_03_Left_1_Damage_1\\spr_lvl3_01_Bodywork_03_Left_1_Damage_1.yy",
+                "id": "59c84b4a-acac-411f-a692-3d0cd154cec6",
+                "resourcePath": "sprites\\spr_lvl3_03_Cockpit_01_LooseSeatbelt\\spr_lvl3_03_Cockpit_01_LooseSeatbelt.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "113e84b0-f9cd-4f17-b335-a2ab4215137b",
+            "Value": {
+                "id": "8042bb49-fcc9-4a9d-ae41-5beb76edbc5b",
+                "resourcePath": "sprites\\spr_lvl3_04_Bodywork_Hood_1_Damage\\spr_lvl3_04_Bodywork_Hood_1_Damage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1197aad0-f40a-4838-9114-6772d14b3240",
             "Value": {
                 "id": "f625318b-937e-4a75-a1dc-50a133a0a295",
@@ -71,18 +79,26 @@
             }
         },
         {
-            "Key": "11a6a4dc-4a00-497f-8473-01aad4314a17",
+            "Key": "144095a8-8820-4338-86bf-3579c99c7c66",
             "Value": {
-                "id": "42b5791c-dc67-4549-8481-88e81891ff12",
-                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_03_Left_2_Damage_2\\spr_lvl3_01_Bodywork_03_Left_2_Damage_2.yy",
+                "id": "19094316-317a-4fac-ae8b-7814e7ef81b8",
+                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_04_Back_0_Damage_0\\spr_lvl3_01_Bodywork_04_Back_0_Damage_0.yy",
                 "resourceType": "GMSprite"
             }
         },
         {
-            "Key": "1ed03267-32c9-441c-b4fb-9aa40415e097",
+            "Key": "158f9e4f-29af-4466-8bab-ecb596e828ec",
             "Value": {
-                "id": "ef873dcb-01be-4ff4-8c72-e0ce0308672b",
-                "resourcePath": "sprites\\spr_lvl3_00_CarShadow\\spr_lvl3_00_CarShadow.yy",
+                "id": "a1256cd8-a63d-4e58-b5a2-dca8f038cb9d",
+                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_6_Up\\spr_lvl3_06_Player_0_AimingHand_6_Up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1de3932f-95ec-4394-aa79-1a48fbd1d2ac",
+            "Value": {
+                "id": "ecc9d40d-87af-48cb-bd90-29fab3926222",
+                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_02_Right_2_Damage_2\\spr_lvl3_01_Bodywork_02_Right_2_Damage_2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -95,10 +111,18 @@
             }
         },
         {
-            "Key": "224d75a9-0e41-4035-955d-0df18aae288e",
+            "Key": "22554745-a0c2-4046-a237-86e97c70848d",
             "Value": {
-                "id": "04f2913f-e137-4510-96bf-026959b19eda",
-                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_03_Left_0_Damage_0\\spr_lvl3_01_Bodywork_03_Left_0_Damage_0.yy",
+                "id": "27437751-e150-4118-ade5-1b53d22c32dc",
+                "resourcePath": "sprites\\spr_lvl3_03_Cockpit_0_Base\\spr_lvl3_03_Cockpit_0_Base.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "22bb81dc-4253-4b3b-b5e1-53febb355ee7",
+            "Value": {
+                "id": "ecb8a61d-c51e-4f1f-a894-6a140f836779",
+                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_0_Right\\spr_lvl3_06_Player_0_AimingHand_0_Right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -111,42 +135,10 @@
             }
         },
         {
-            "Key": "23893ef1-e60d-4b6a-8f3f-08aa5040a2c5",
+            "Key": "2c5582e6-8a12-4b0d-986b-a88d2b8cd957",
             "Value": {
-                "id": "cfc7c3a3-1bd1-4333-9532-4750618cfe31",
-                "resourcePath": "sprites\\spr_lvl3_04_Bodywork_Hood_0_Damage\\spr_lvl3_04_Bodywork_Hood_0_Damage.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "23896e37-a7d9-44c6-b57d-ce95206aa631",
-            "Value": {
-                "id": "31c0bf69-ae7f-4576-b662-994372d03e93",
-                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_6_Up\\spr_lvl3_06_Player_0_AimingHand_6_Up.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "2834b0be-cadc-4bcb-b64d-eee874f40f1e",
-            "Value": {
-                "id": "8d2c5139-40fb-4e81-a459-2526152bf809",
+                "id": "d5907b51-0ae8-4dec-9046-2951e3b21568",
                 "resourcePath": "sprites\\spr_lvl3_03_Cockpit_02_PLAYER_2_Driving_Right\\spr_lvl3_03_Cockpit_02_PLAYER_2_Driving_Right.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "2a0240d6-c4b4-4287-bf6f-bf78bcbb93e2",
-            "Value": {
-                "id": "891ca303-e548-4502-a7e8-2bb9ef37de57",
-                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_5_Left_Up\\spr_lvl3_06_Player_0_AimingHand_5_Left_Up.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "2ae5868f-c1be-4499-ab45-21eb96cde331",
-            "Value": {
-                "id": "a1fc3405-54bd-470e-9cc7-1901f236c724",
-                "resourcePath": "sprites\\spr_lvl3_04_BodyWork_Trunk_0_Damage\\spr_lvl3_04_BodyWork_Trunk_0_Damage.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -156,14 +148,6 @@
                 "id": "4258087c-213b-40ba-bf03-0da7ac3c541f",
                 "resourcePath": "objects\\obj_lvl3_enemybullet\\obj_lvl3_enemybullet.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "30d7affd-3205-42cc-bcd3-cd248c2c424d",
-            "Value": {
-                "id": "bfe8d120-d470-4cad-959f-91a785be13d6",
-                "resourcePath": "sprites\\spr_lvl3_04_BodyWork_Trunk_1_Damage\\spr_lvl3_04_BodyWork_Trunk_1_Damage.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -183,18 +167,10 @@
             }
         },
         {
-            "Key": "33425e68-882c-4ac9-b22e-4a184b76e619",
+            "Key": "3692e3be-3ab2-4ce7-b6b2-4c3cf34c48a2",
             "Value": {
-                "id": "f1d3853e-bd47-41c0-843e-4b594fce68af",
+                "id": "859fb91c-95f4-48cc-a54b-50967d8657a9",
                 "resourcePath": "sprites\\spr_lvl3_01_Bodywork_03_Left_1_Mirror_Damage_1\\spr_lvl3_01_Bodywork_03_Left_1_Mirror_Damage_1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "35c61c47-2531-4993-960b-478136651f69",
-            "Value": {
-                "id": "8a923eac-0da8-41a7-bc86-de94f1d1c374",
-                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_04_Back_0_Damage_0\\spr_lvl3_01_Bodywork_04_Back_0_Damage_0.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -207,6 +183,22 @@
             }
         },
         {
+            "Key": "3c10c193-d37f-4e65-b3fe-c8fc36593811",
+            "Value": {
+                "id": "95020059-4a14-4df0-b87f-2097bb645c32",
+                "resourcePath": "sprites\\spr_lvl3_05_Windshield_1_Highlights\\spr_lvl3_05_Windshield_1_Highlights.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3e01ebd6-9070-4791-a78a-a11db410003a",
+            "Value": {
+                "id": "77d8482e-a1b8-4f61-801b-c4630da7066a",
+                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_01_FrontFork\\spr_lvl3_01_Bodywork_01_FrontFork.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3ea989ab-f1e4-4f5e-9862-97736a7afcf7",
             "Value": {
                 "id": "9a7a7ca2-ecf2-465d-9077-29def29959d4",
@@ -215,58 +207,18 @@
             }
         },
         {
-            "Key": "404c0da1-4801-4588-b58d-d58f56c35847",
+            "Key": "423938de-32e2-4f1a-977a-1272c3c50e1f",
             "Value": {
-                "id": "8211a657-cc49-4d08-9e79-1910615e4a8e",
-                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_0_Right\\spr_lvl3_06_Player_0_AimingHand_0_Right.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "41347146-477b-4259-ac7c-b1f487adeb66",
-            "Value": {
-                "id": "89a4c89a-c12f-4ceb-8816-de4705b6b354",
-                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_4_Left\\spr_lvl3_06_Player_0_AimingHand_4_Left.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "436161d2-1c88-4e9a-8d48-2d538c53bdd7",
-            "Value": {
-                "id": "1dc7efd7-4950-4eb3-ba2b-71931d3270fd",
-                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_02_Right_1_Mirror_Damage_1\\spr_lvl3_01_Bodywork_02_Right_1_Mirror_Damage_1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "45c23ff4-a141-4e14-b369-767e19eff5e0",
-            "Value": {
-                "id": "66488e18-1db3-490d-92a6-f66a53894373",
+                "id": "ad54142b-23ea-4cd8-a6c5-b18286d31cc7",
                 "resourcePath": "sprites\\spr_lvl3_01_Bodywork_04_Back_9_BrakeLightsON\\spr_lvl3_01_Bodywork_04_Back_9_BrakeLightsON.yy",
                 "resourceType": "GMSprite"
             }
         },
         {
-            "Key": "47422148-d307-453f-9e1c-ff9977c765e7",
+            "Key": "4709f461-5397-4620-8017-2b19b3ad6aa8",
             "Value": {
-                "id": "c6f42af9-284a-4ec6-9641-9577b6b6bdf4",
-                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_04_Back_2_Damage_2\\spr_lvl3_01_Bodywork_04_Back_2_Damage_2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "47ff3db3-0f94-4a4d-8df2-95d0d7f34c5a",
-            "Value": {
-                "id": "e6e38c65-fc6c-4e4a-b42b-223979a230a1",
-                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_01_FrontFork\\spr_lvl3_01_Bodywork_01_FrontFork.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "4d085f5e-da74-4889-bc47-dd23b4957b94",
-            "Value": {
-                "id": "5f94050d-5708-4b18-b31c-cd3a9be75647",
-                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_7_Up_Right\\spr_lvl3_06_Player_0_AimingHand_7_Up_Right.yy",
+                "id": "efc44587-f955-4484-a620-d2cbed6ddc93",
+                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_5_Left_Up\\spr_lvl3_06_Player_0_AimingHand_5_Left_Up.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -279,14 +231,6 @@
             }
         },
         {
-            "Key": "53aab981-f30a-48bf-9504-cf8f9b76fed4",
-            "Value": {
-                "id": "1324d8cd-c03f-4856-b8ab-29cc4a5f5563",
-                "resourcePath": "sprites\\spr_lvl3_02_Bumper_01_Rear_0_Damage\\spr_lvl3_02_Bumper_01_Rear_0_Damage.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "543855de-8432-41de-9348-16e5611a88a4",
             "Value": {
                 "id": "dbf6fc09-3481-4a0c-9278-f17d53ab93ac",
@@ -295,18 +239,26 @@
             }
         },
         {
-            "Key": "577e5a7d-8949-495d-8c57-6fe562bf19b6",
-            "Value": {
-                "id": "9a1c726a-3d93-4745-b4e1-2081f3064777",
-                "resourcePath": "sprites\\spr_lvl3_04_Bodywork_Hood_1_Damage\\spr_lvl3_04_Bodywork_Hood_1_Damage.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5893f556-0b2e-4f17-aa5b-115e4c14bdef",
             "Value": {
                 "id": "cdfb8da4-1135-4d6e-a1ff-6c87f8d197b2",
                 "resourcePath": "sprites\\spr_lvl3_playerbullet\\spr_lvl3_playerbullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5bc18215-8659-45aa-ad92-331373060f4b",
+            "Value": {
+                "id": "f83cb233-4c3c-46b3-aa0b-4955d17aeb58",
+                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_02_Right_1_Mirror_Damage_1\\spr_lvl3_01_Bodywork_02_Right_1_Mirror_Damage_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5c9c2d42-dc2a-4392-a8b8-5f3e5233bf4f",
+            "Value": {
+                "id": "0104b918-425c-412e-b39e-4b991a1f0008",
+                "resourcePath": "sprites\\spr_lvl3_00_CarShadow\\spr_lvl3_00_CarShadow.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -319,10 +271,10 @@
             }
         },
         {
-            "Key": "609aec36-0461-4e5c-85a7-ca4c0f20d36d",
+            "Key": "624dbbd0-d08d-42a8-ad85-78b93af26f2c",
             "Value": {
-                "id": "990a3a35-e4cd-4075-8d89-1298bcef3c0d",
-                "resourcePath": "sprites\\spr_lvl3_02_Bumper_01_Rear_1_Damage\\spr_lvl3_02_Bumper_01_Rear_1_Damage.yy",
+                "id": "9545b51e-3e33-4627-a902-518745c8b51c",
+                "resourcePath": "sprites\\spr_lvl3_99_SmokeParticle\\spr_lvl3_99_SmokeParticle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -340,14 +292,6 @@
                 "id": "ebfd31b6-c283-4c09-a75a-c5808497f2af",
                 "resourcePath": "objects\\obj_lvl3_player\\obj_lvl3_player.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "6671ebf1-1daf-4cbc-a72a-a5757a45959d",
-            "Value": {
-                "id": "9fdc1e91-ff5f-46bf-aab9-6273c48529f8",
-                "resourcePath": "sprites\\spr_lvl3_05_Windshield_2_Glass_0_Damage\\spr_lvl3_05_Windshield_2_Glass_0_Damage.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -383,26 +327,10 @@
             }
         },
         {
-            "Key": "6c88cc76-8591-4909-8c95-753919b729e7",
+            "Key": "6c691aa8-2083-47ce-a594-54ed6bb1f39c",
             "Value": {
-                "id": "2faf67b1-ecec-4fe4-b355-e7cbe90eb396",
-                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_04_Back_1_Damage_1\\spr_lvl3_01_Bodywork_04_Back_1_Damage_1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6d9e0333-cc07-42d6-a7b2-c6d0daabf500",
-            "Value": {
-                "id": "0310e050-6c0f-40c7-8213-4263f4bd1e49",
-                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_02_Right_1_Damage_1\\spr_lvl3_01_Bodywork_02_Right_1_Damage_1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6db393e1-0fbf-4a8a-ba50-ec0660be3910",
-            "Value": {
-                "id": "0d94fd92-0fb5-4503-be31-8695256c77bf",
-                "resourcePath": "sprites\\spr_lvl3_03_Cockpit_02_PLAYER_1_Driving_Left\\spr_lvl3_03_Cockpit_02_PLAYER_1_Driving_Left.yy",
+                "id": "11a03846-d18c-48ef-8a5f-0c6d34b82b4a",
+                "resourcePath": "sprites\\spr_lvl3_02_Bumper_01_Rear_1_Damage\\spr_lvl3_02_Bumper_01_Rear_1_Damage.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -431,19 +359,43 @@
             }
         },
         {
+            "Key": "70f95fe8-7d20-4f56-8526-cfd807963e5b",
+            "Value": {
+                "id": "e6983dcd-bd39-4eb9-8079-46b18fa7bc87",
+                "resourcePath": "sprites\\spr_lvl3_03_Cockpit_02_PLAYER_0_Driving_Straight\\spr_lvl3_03_Cockpit_02_PLAYER_0_Driving_Straight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71188c2a-ac77-408b-8b65-d86bc16f3a15",
+            "Value": {
+                "id": "736fdb3f-5097-443b-a026-7506a02f9f0a",
+                "resourcePath": "sprites\\spr_lvl3_04_Bodywork_Hood_0_Damage\\spr_lvl3_04_Bodywork_Hood_0_Damage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "77c9f989-2e2b-4ff1-9c82-2b6e56aa7c0f",
+            "Value": {
+                "id": "a637943b-ef0b-4a00-af96-24a82f338828",
+                "resourcePath": "sprites\\spr_lvl3_02_EngineBay_BROOMBROOMMOTHERFUCKER\\spr_lvl3_02_EngineBay_BROOMBROOMMOTHERFUCKER.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "79a549c7-d085-468b-a639-034885b90ee8",
+            "Value": {
+                "id": "91ce5a98-97b9-479c-959a-e711a24390a1",
+                "resourcePath": "sprites\\spr_lvl3_04_BodyWork_Trunk_1_Damage\\spr_lvl3_04_BodyWork_Trunk_1_Damage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7bc152f6-bb05-4136-8300-71d16c5a1456",
             "Value": {
                 "id": "2d4ee88b-b739-4027-b9a7-4a173846ebb3",
                 "resourcePath": "views\\7bc152f6-bb05-4136-8300-71d16c5a1456.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "82589676-cc01-471b-92b2-59f66bc23170",
-            "Value": {
-                "id": "0ad59426-8bec-45df-a836-78040d38f4b7",
-                "resourcePath": "sprites\\spr_lvl3_02_Bumper_02_Front_1_Damage\\spr_lvl3_02_Bumper_02_Front_1_Damage.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -455,34 +407,26 @@
             }
         },
         {
-            "Key": "860afdfb-4691-4a65-8479-4f2474176f65",
+            "Key": "8757ff6f-823b-4c1d-aa4a-0de06f87d2f5",
             "Value": {
-                "id": "6c708179-5867-4dd4-9869-54b4a0590505",
+                "id": "cbacf290-f40c-49dd-a8a3-79e47fcdbcc6",
                 "resourcePath": "sprites\\spr_lvl3_05_Windshield_0_Frame\\spr_lvl3_05_Windshield_0_Frame.yy",
                 "resourceType": "GMSprite"
             }
         },
         {
-            "Key": "86fac41e-d12e-43cf-b37e-31c005050718",
+            "Key": "88f6c003-7e75-4bd7-a93b-78bf94afc59a",
             "Value": {
-                "id": "91fab61e-8b69-4419-9d25-037f5263267f",
-                "resourcePath": "sprites\\spr_lvl3_03_Cockpit_02_PLAYER_0_Driving_Straight\\spr_lvl3_03_Cockpit_02_PLAYER_0_Driving_Straight.yy",
+                "id": "8f64898a-58f5-4ff7-b584-81f7d42e3e7b",
+                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_03_Left_0_Damage_0\\spr_lvl3_01_Bodywork_03_Left_0_Damage_0.yy",
                 "resourceType": "GMSprite"
             }
         },
         {
-            "Key": "8a474235-ffd7-46dd-89f1-4940863e896f",
+            "Key": "8d892108-8baf-4eb3-987d-efc48757ba7a",
             "Value": {
-                "id": "e1c3f8df-1f69-4601-ac67-d9f65219f95c",
+                "id": "fd809188-d6e6-494e-bb1b-5fbe5631e978",
                 "resourcePath": "sprites\\spr_lvl3_01_Bodywork_03_Left_0_Mirror_Damage_0\\spr_lvl3_01_Bodywork_03_Left_0_Mirror_Damage_0.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "8b1e131b-be5b-4dc1-8cac-b0cbaa739a08",
-            "Value": {
-                "id": "2dd8a4cb-3bda-4ef9-8947-970c84e69999",
-                "resourcePath": "sprites\\spr_lvl3_02_Bumper_02_Front_0_Damage\\spr_lvl3_02_Bumper_02_Front_0_Damage.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -495,10 +439,18 @@
             }
         },
         {
-            "Key": "9aa769b9-7dc7-47cb-b990-a80490807562",
+            "Key": "9223ec02-37d8-4d6a-afaf-db53759d7ede",
             "Value": {
-                "id": "c16f242b-b5fd-42e5-8a00-4a3b59624941",
-                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_02_Right_2_Damage_2\\spr_lvl3_01_Bodywork_02_Right_2_Damage_2.yy",
+                "id": "23df98ad-7f4e-4ec7-b69f-046317d13512",
+                "resourcePath": "sprites\\spr_lvl3_04_BodyWork_Trunk_0_Damage\\spr_lvl3_04_BodyWork_Trunk_0_Damage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "97e85c0c-8575-412f-8380-a7cbfbdf3c44",
+            "Value": {
+                "id": "15194989-fcbb-4de8-95a1-41a3fe2dd452",
+                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_3_DownLeft\\spr_lvl3_06_Player_0_AimingHand_3_DownLeft.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -511,6 +463,14 @@
             }
         },
         {
+            "Key": "9e05f92a-5563-47a2-a92a-accd08463972",
+            "Value": {
+                "id": "68bc8459-a01d-4ce8-8a2f-dcb03e0c89ec",
+                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_03_Left_2_Damage_2\\spr_lvl3_01_Bodywork_03_Left_2_Damage_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9f51d191-37c4-48db-93a2-6b225ce38898",
             "Value": {
                 "id": "c06193ac-5957-4929-b98f-04f37df13f6b",
@@ -519,10 +479,10 @@
             }
         },
         {
-            "Key": "a1c6b185-3476-4ef7-8454-8acf54107639",
+            "Key": "a024c97a-b384-4c6c-aeb1-e55e65786fed",
             "Value": {
-                "id": "b129fb72-77a2-4640-8e47-f67eedeb9404",
-                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_2_Down\\spr_lvl3_06_Player_0_AimingHand_2_Down.yy",
+                "id": "8955f381-1b5c-490a-a55f-7c3491c85177",
+                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_7_Up_Right\\spr_lvl3_06_Player_0_AimingHand_7_Up_Right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -535,18 +495,10 @@
             }
         },
         {
-            "Key": "ab14f29d-d542-49d3-9fcb-df85f5abe7c9",
+            "Key": "adbb048f-3ff1-441b-a7f3-9418977ea69d",
             "Value": {
-                "id": "0680b8d1-4693-41ff-ad07-33f5005c55d6",
-                "resourcePath": "sprites\\spr_lvl3_05_Windshield_2_Glass_2_Damage\\spr_lvl3_05_Windshield_2_Glass_2_Damage.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "ac0edf38-922a-4435-9cef-abb219f9b209",
-            "Value": {
-                "id": "16f2333a-33b7-455e-a4ff-54f38b4cb247",
-                "resourcePath": "sprites\\spr_lvl3_05_Windshield_2_Glass_1_Damage\\spr_lvl3_05_Windshield_2_Glass_1_Damage.yy",
+                "id": "3bccbf34-7e6e-4d40-a02c-80bb6822d996",
+                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_04_Back_2_Damage_2\\spr_lvl3_01_Bodywork_04_Back_2_Damage_2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -559,10 +511,10 @@
             }
         },
         {
-            "Key": "aead287f-fad7-4c27-adbe-334860a87802",
+            "Key": "af06348e-003e-4be0-8fea-87bb59b20525",
             "Value": {
-                "id": "074ddadf-a53b-4fa6-9668-508db3d76cab",
-                "resourcePath": "sprites\\spr_lvl3_03_Cockpit_0_Base\\spr_lvl3_03_Cockpit_0_Base.yy",
+                "id": "3ec81162-a481-41cb-a620-176a826fbe83",
+                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_4_Left\\spr_lvl3_06_Player_0_AimingHand_4_Left.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -599,10 +551,26 @@
             }
         },
         {
+            "Key": "b7fb7e0f-864b-4aef-a8a5-c2b771a439ac",
+            "Value": {
+                "id": "a021c778-c7f9-41cf-b467-1ec824f88d63",
+                "resourcePath": "sprites\\spr_lvl3_05_Windshield_2_Glass_2_Damage\\spr_lvl3_05_Windshield_2_Glass_2_Damage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b84b99d1-9d18-4dc2-8fc2-e9aa87904fc0",
             "Value": {
                 "id": "22f17dce-139d-4d96-908a-04f1dbcb6797",
                 "resourcePath": "sprites\\spr_lvl3_line\\spr_lvl3_line.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b8c8df25-2ab6-40a8-a358-9dca9b826339",
+            "Value": {
+                "id": "6deb405e-56e7-45d2-bf93-c3cf3d3bccad",
+                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_02_Right_1_Damage_1\\spr_lvl3_01_Bodywork_02_Right_1_Damage_1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -615,10 +583,10 @@
             }
         },
         {
-            "Key": "be27032c-3f9f-4052-addd-0d06bc1fa713",
+            "Key": "bcb155f6-4814-4bae-bd69-e767c145cbb0",
             "Value": {
-                "id": "1af35496-f739-49d8-9245-20f76a4399ed",
-                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_1_Right_Down\\spr_lvl3_06_Player_0_AimingHand_1_Right_Down.yy",
+                "id": "72ecb636-f68e-4dc6-a1cc-c1c5b49cc92f",
+                "resourcePath": "sprites\\spr_lvl3_05_Windshield_2_Glass_0_Damage\\spr_lvl3_05_Windshield_2_Glass_0_Damage.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -639,18 +607,10 @@
             }
         },
         {
-            "Key": "bf326fd8-9563-4c79-a81c-6ce3d4b1c196",
+            "Key": "bf775fb8-1c90-44e6-b316-69c50afbf767",
             "Value": {
-                "id": "9802d007-50db-42b1-8958-f00f9937321e",
+                "id": "6287fdc5-8e44-4854-9a59-756b781f5c12",
                 "resourcePath": "sprites\\spr_lvl3_05_Windshield_2_Glass_3_Damage\\spr_lvl3_05_Windshield_2_Glass_3_Damage.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c1e74638-752f-4dc8-916a-40fbd965f057",
-            "Value": {
-                "id": "11152542-e43e-43a9-92cf-85a0dbc974f3",
-                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_02_Right_0_Damage_0\\spr_lvl3_01_Bodywork_02_Right_0_Damage_0.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -659,6 +619,14 @@
             "Value": {
                 "id": "6640f20c-6b43-4924-9798-4bbe1def6e00",
                 "resourcePath": "sprites\\spr_lvl3_player\\spr_lvl3_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c600daaf-d0de-408c-bd04-80d857624822",
+            "Value": {
+                "id": "96ae03b3-deaf-4c9e-a247-50deb4a8e85a",
+                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_1_Right_Down\\spr_lvl3_06_Player_0_AimingHand_1_Right_Down.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -695,18 +663,18 @@
             }
         },
         {
-            "Key": "d043beb7-30cd-4953-b430-d4eef2384ff3",
-            "Value": {
-                "id": "e3bd16e2-a15a-4831-992f-a01f8b48359d",
-                "resourcePath": "sprites\\spr_lvl3_99_SmokeParticle\\spr_lvl3_99_SmokeParticle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d183e9b1-4688-4177-8045-4561387fa3cb",
             "Value": {
                 "id": "2356d629-1013-4f41-9f8f-2924dd948cfe",
                 "resourcePath": "sprites\\spr_lvl3_road_wide\\spr_lvl3_road_wide.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d18c5946-ba64-49d7-9d00-b5cf0b6cdad3",
+            "Value": {
+                "id": "18cf5fe6-173e-4321-8c9d-a547e7b4bf6f",
+                "resourcePath": "sprites\\spr_lvl3_02_Bumper_01_Rear_0_Damage\\spr_lvl3_02_Bumper_01_Rear_0_Damage.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -727,10 +695,34 @@
             }
         },
         {
+            "Key": "d898528b-8dfa-45eb-bd87-0ad3506d78fb",
+            "Value": {
+                "id": "e3239180-ab38-4b53-b9d3-877e524df3aa",
+                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_2_Down\\spr_lvl3_06_Player_0_AimingHand_2_Down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e22ee46b-d16c-41e9-84ea-188e1d23e178",
+            "Value": {
+                "id": "c1f2625b-b4c8-4d98-ab6a-3fc941461d03",
+                "resourcePath": "sprites\\spr_lvl3_02_Bumper_02_Front_1_Damage\\spr_lvl3_02_Bumper_02_Front_1_Damage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e2f8c0a7-3d9f-40e3-b5f6-be9e3092d0c7",
             "Value": {
                 "id": "6b1b6253-901e-4686-9006-26296e6433e0",
                 "resourcePath": "sprites\\spr_lvl3_bullet\\spr_lvl3_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e31d2be0-6244-4727-b4fc-8d7f2dd66bd9",
+            "Value": {
+                "id": "554c1023-bf4c-4e58-8a81-2eeb8d541a0c",
+                "resourcePath": "sprites\\spr_lvl3_05_Windshield_2_Glass_1_Damage\\spr_lvl3_05_Windshield_2_Glass_1_Damage.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -751,19 +743,27 @@
             }
         },
         {
-            "Key": "e5aca37c-5ccb-4ca1-95c6-5132d33fea9a",
-            "Value": {
-                "id": "5a38b724-4cb8-4666-aa03-31e72bdcc811",
-                "resourcePath": "sprites\\spr_lvl3_03_Cockpit_01_LooseSeatbelt\\spr_lvl3_03_Cockpit_01_LooseSeatbelt.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "e8ddd6c9-3519-4826-a5c9-9739c6f350e2",
             "Value": {
                 "id": "cb350ff4-6ac5-4807-b37a-baa313f658eb",
                 "resourcePath": "scripts\\scr_lvl3_checkDeviceDirection\\scr_lvl3_checkDeviceDirection.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e99aa4b3-3691-4605-8e59-bb0ead62f6f5",
+            "Value": {
+                "id": "ffb65232-1f04-4f08-8848-9788b6839142",
+                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_03_Left_1_Damage_1\\spr_lvl3_01_Bodywork_03_Left_1_Damage_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e9bfa585-cf4e-4434-84d9-b889c22f172a",
+            "Value": {
+                "id": "6392000c-a8e9-431a-90fc-3a36c20d1426",
+                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_02_Right_0_Mirror_Damage_0\\spr_lvl3_01_Bodywork_02_Right_0_Mirror_Damage_0.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -775,14 +775,6 @@
             }
         },
         {
-            "Key": "ee327670-ceef-4c66-9745-d7078125b017",
-            "Value": {
-                "id": "2909fdc6-58d0-43d8-9d7b-7735d59bc195",
-                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_02_Right_0_Mirror_Damage_0\\spr_lvl3_01_Bodywork_02_Right_0_Mirror_Damage_0.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "eec99b2a-ac27-4161-baae-3faede4f623b",
             "Value": {
                 "id": "022840ff-b302-4d05-8520-f7fa99848f99",
@@ -791,11 +783,27 @@
             }
         },
         {
-            "Key": "f022602c-d4c3-412c-8362-311826736967",
+            "Key": "f049f429-82b4-4b8a-bb00-2d4a513af138",
             "Value": {
-                "id": "02c3e888-9725-43de-bfe1-988a87467368",
-                "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_3_DownLeft\\spr_lvl3_06_Player_0_AimingHand_3_DownLeft.yy",
+                "id": "4ac3f167-5841-491b-91be-17d4f4222f01",
+                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_02_Right_0_Damage_0\\spr_lvl3_01_Bodywork_02_Right_0_Damage_0.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f092af8d-61ff-4dc2-b47a-23bbb4db1fec",
+            "Value": {
+                "id": "1310b6a7-421a-4e79-b696-7a37fe52c99c",
+                "resourcePath": "sprites\\spr_lvl3_01_Bodywork_04_Back_1_Damage_1\\spr_lvl3_01_Bodywork_04_Back_1_Damage_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f229f888-1a3a-4a32-ac54-9f2957c8e010",
+            "Value": {
+                "id": "0d15f02e-755e-445b-acf6-44c066fb1a5c",
+                "resourcePath": "objects\\obj_bounds\\obj_bounds.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -807,10 +815,18 @@
             }
         },
         {
-            "Key": "f7b3b53a-3c69-4239-ac3d-7762c1a98aef",
+            "Key": "f4a28ccd-11b8-466c-a09b-eabc9ff99f9c",
             "Value": {
-                "id": "106f3eab-d78d-4894-9474-1d29ad335ed2",
-                "resourcePath": "sprites\\spr_lvl3_02_EngineBay_BROOMBROOMMOTHERFUCKER\\spr_lvl3_02_EngineBay_BROOMBROOMMOTHERFUCKER.yy",
+                "id": "97e32aa7-b800-4c0f-bef1-3cbbf845d9aa",
+                "resourcePath": "sprites\\spr_lvl3_03_Cockpit_02_PLAYER_1_Driving_Left\\spr_lvl3_03_Cockpit_02_PLAYER_1_Driving_Left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f90a1cfc-4e59-48c2-9767-da82ac97b544",
+            "Value": {
+                "id": "8d49651a-76a3-4713-ac94-dfad0f96daa4",
+                "resourcePath": "sprites\\spr_lvl3_06_Player_01_Head\\spr_lvl3_06_Player_01_Head.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -820,14 +836,6 @@
                 "id": "9d232534-c02a-438e-9ef8-f2558260b9e1",
                 "resourcePath": "objects\\obj_lvl3_bulletblow\\obj_lvl3_bulletblow.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "ffc1a8fa-c609-4f53-8b77-5ccbe77cc28c",
-            "Value": {
-                "id": "e79dac4e-9ee1-4e6b-b25a-1ca4925ed8f6",
-                "resourcePath": "sprites\\spr_lvl3_05_Windshield_1_Highlights\\spr_lvl3_05_Windshield_1_Highlights.yy",
-                "resourceType": "GMSprite"
             }
         }
     ],

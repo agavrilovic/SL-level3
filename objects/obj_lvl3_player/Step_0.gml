@@ -81,6 +81,7 @@ if (int_health<=0){
 }
 
 
+
 //Die from crashing (Camera stays on player)
 if ((int_directionalHealthFront<=0) || (int_directionalHealthBack<=0) || (int_directionalHealthUp<=0) || (int_directionalHealthDown<=0)){
 	if (obj_lvl3_controller.bool_stopCameraWhenCollided == true) {

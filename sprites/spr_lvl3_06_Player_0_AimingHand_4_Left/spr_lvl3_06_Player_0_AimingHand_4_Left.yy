@@ -1,5 +1,5 @@
 {
-    "id": "41347146-477b-4259-ac7c-b1f487adeb66",
+    "id": "af06348e-003e-4be0-8fea-87bb59b20525",
     "modelName": "GMSprite",
     "mvc": "1.12",
     "name": "spr_lvl3_06_Player_0_AimingHand_4_Left",
@@ -16,24 +16,24 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "b17c1f9a-10d4-4eb9-82dc-2cd26da252af",
+            "id": "a0ccb74f-e196-4664-b74f-6f7994723475",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "41347146-477b-4259-ac7c-b1f487adeb66",
+            "SpriteId": "af06348e-003e-4be0-8fea-87bb59b20525",
             "compositeImage": {
-                "id": "6758f253-3a7e-46b7-b0c4-27f0bb8ae61d",
+                "id": "2749d970-f739-4a4f-814a-0c6985d5e713",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "b17c1f9a-10d4-4eb9-82dc-2cd26da252af",
+                "FrameId": "a0ccb74f-e196-4664-b74f-6f7994723475",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "daddc9cd-50e4-4854-ac39-ccb36cc75474",
+                    "id": "ce34464b-7a3a-4643-90b0-fd8ced337c54",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "b17c1f9a-10d4-4eb9-82dc-2cd26da252af",
-                    "LayerId": "e32df90c-7ba0-4455-a18d-5a571cedc75b"
+                    "FrameId": "a0ccb74f-e196-4664-b74f-6f7994723475",
+                    "LayerId": "77fa9378-61f9-4522-8525-e3176ebfb5be"
                 }
             ]
         }
@@ -43,10 +43,10 @@
     "height": 85,
     "layers": [
         {
-            "id": "e32df90c-7ba0-4455-a18d-5a571cedc75b",
+            "id": "77fa9378-61f9-4522-8525-e3176ebfb5be",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "41347146-477b-4259-ac7c-b1f487adeb66",
+            "SpriteId": "af06348e-003e-4be0-8fea-87bb59b20525",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
@@ -54,7 +54,7 @@
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 4,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -65,6 +65,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 110,
-    "xorig": 0,
-    "yorig": 0
+    "xorig": 55,
+    "yorig": 42
 }

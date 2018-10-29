@@ -1,5 +1,5 @@
 {
-    "id": "45c23ff4-a141-4e14-b369-767e19eff5e0",
+    "id": "423938de-32e2-4f1a-977a-1272c3c50e1f",
     "modelName": "GMSprite",
     "mvc": "1.12",
     "name": "spr_lvl3_01_Bodywork_04_Back_9_BrakeLightsON",
@@ -16,24 +16,24 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "39bab045-365e-4246-9ffb-249b71fea2b1",
+            "id": "fc67a146-3d8b-4d66-ab44-4cf1a7b92ff4",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "45c23ff4-a141-4e14-b369-767e19eff5e0",
+            "SpriteId": "423938de-32e2-4f1a-977a-1272c3c50e1f",
             "compositeImage": {
-                "id": "d0283873-04b8-4381-8ceb-e0d6617b20f8",
+                "id": "faa78874-917b-4df0-b31e-92fd5b3cde3a",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "39bab045-365e-4246-9ffb-249b71fea2b1",
+                "FrameId": "fc67a146-3d8b-4d66-ab44-4cf1a7b92ff4",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "6590b49e-f96a-40e4-89c9-275b3d89f463",
+                    "id": "f7955bd1-236c-483e-a9bd-52030258f84a",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "39bab045-365e-4246-9ffb-249b71fea2b1",
-                    "LayerId": "d27c2db4-b819-4dc8-ab81-1c7a459722ab"
+                    "FrameId": "fc67a146-3d8b-4d66-ab44-4cf1a7b92ff4",
+                    "LayerId": "8a10e637-f08d-4741-8dad-356adc98b2c8"
                 }
             ]
         }
@@ -43,10 +43,10 @@
     "height": 85,
     "layers": [
         {
-            "id": "d27c2db4-b819-4dc8-ab81-1c7a459722ab",
+            "id": "8a10e637-f08d-4741-8dad-356adc98b2c8",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "45c23ff4-a141-4e14-b369-767e19eff5e0",
+            "SpriteId": "423938de-32e2-4f1a-977a-1272c3c50e1f",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
@@ -54,7 +54,7 @@
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 4,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -65,6 +65,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 110,
-    "xorig": 0,
-    "yorig": 0
+    "xorig": 55,
+    "yorig": 42
 }

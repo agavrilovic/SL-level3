@@ -1,5 +1,5 @@
 {
-    "id": "e5aca37c-5ccb-4ca1-95c6-5132d33fea9a",
+    "id": "08e9e8cd-4a66-422a-8e07-899d4aa4fc90",
     "modelName": "GMSprite",
     "mvc": "1.12",
     "name": "spr_lvl3_03_Cockpit_01_LooseSeatbelt",
@@ -16,24 +16,24 @@
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "00de51d8-8c57-4c9d-9f7b-8f37ff569a13",
+            "id": "ca94ce7c-b6a8-4d4d-92c6-a7fc8e28e2e1",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "e5aca37c-5ccb-4ca1-95c6-5132d33fea9a",
+            "SpriteId": "08e9e8cd-4a66-422a-8e07-899d4aa4fc90",
             "compositeImage": {
-                "id": "bd9bc90a-55fb-407e-8c37-a9c750f806f1",
+                "id": "59078ef2-5823-4fad-833d-a4395f70c22d",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "00de51d8-8c57-4c9d-9f7b-8f37ff569a13",
+                "FrameId": "ca94ce7c-b6a8-4d4d-92c6-a7fc8e28e2e1",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "4de7748b-8030-4487-a83e-43dcf9a1733a",
+                    "id": "a9a54a17-b685-47fa-b4dd-48655c22e049",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "00de51d8-8c57-4c9d-9f7b-8f37ff569a13",
-                    "LayerId": "cf091c95-c16b-47d2-a09b-1514b82ed2a7"
+                    "FrameId": "ca94ce7c-b6a8-4d4d-92c6-a7fc8e28e2e1",
+                    "LayerId": "6f19dad7-d36e-414e-aed6-843863c7f408"
                 }
             ]
         }
@@ -43,10 +43,10 @@
     "height": 85,
     "layers": [
         {
-            "id": "cf091c95-c16b-47d2-a09b-1514b82ed2a7",
+            "id": "6f19dad7-d36e-414e-aed6-843863c7f408",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "e5aca37c-5ccb-4ca1-95c6-5132d33fea9a",
+            "SpriteId": "08e9e8cd-4a66-422a-8e07-899d4aa4fc90",
             "blendMode": 0,
             "isLocked": false,
             "name": "default",
@@ -54,7 +54,7 @@
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 4,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -65,6 +65,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 110,
-    "xorig": 0,
-    "yorig": 0
+    "xorig": 55,
+    "yorig": 42
 }
