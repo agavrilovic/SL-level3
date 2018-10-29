@@ -183,7 +183,31 @@
             }
         },
         {
+<<<<<<< HEAD
             "Key": "3c10c193-d37f-4e65-b3fe-c8fc36593811",
+=======
+            "Key": "3ea989ab-f1e4-4f5e-9862-97736a7afcf7",
+            "Value": {
+                "id": "9a7a7ca2-ecf2-465d-9077-29def29959d4",
+                "resourcePath": "sprites\\spr_lvl3_enemy\\spr_lvl3_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 838818bcbb521313ec970fc9160637d21c52a832
+            "Key": "4a0c25e3-f184-4475-8e36-fbc8b9720b20",
+            "Value": {
+                "id": "f8d5fdf7-c907-4d4b-8ea9-413116cdc47f",
+                "resourcePath": "objects\\obj_bounds\\obj_bounds.yy",
+                "resourceType": "GMObject"
+<<<<<<< HEAD
+=======
+=======
+            "Key": "404c0da1-4801-4588-b58d-d58f56c35847",
+>>>>>>> 2cb52dae71ed1f1b664543a449b147bf3027e868
             "Value": {
                 "id": "95020059-4a14-4df0-b87f-2097bb645c32",
                 "resourcePath": "sprites\\spr_lvl3_05_Windshield_1_Highlights\\spr_lvl3_05_Windshield_1_Highlights.yy",
@@ -220,6 +244,8 @@
                 "id": "efc44587-f955-4484-a620-d2cbed6ddc93",
                 "resourcePath": "sprites\\spr_lvl3_06_Player_0_AimingHand_5_Left_Up\\spr_lvl3_06_Player_0_AimingHand_5_Left_Up.yy",
                 "resourceType": "GMSprite"
+>>>>>>> 623d07f9a9643d3b86986e8cc565ce520d7fc1e8
+>>>>>>> 838818bcbb521313ec970fc9160637d21c52a832
             }
         },
         {
