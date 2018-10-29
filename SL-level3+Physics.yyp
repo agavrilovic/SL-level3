@@ -103,14 +103,6 @@
             }
         },
         {
-            "Key": "4ed6bbc3-4e6b-41e7-b604-28d6ce928cc6",
-            "Value": {
-                "id": "cfc9cdf9-7033-4eb2-804d-01b1f217ce65",
-                "resourcePath": "sprites\\spr_lvl3_usefulHackRoad\\spr_lvl3_usefulHackRoad.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "50b4269c-863c-42f6-9dc8-024de2ff3b9a",
             "Value": {
                 "id": "55d0f881-b33f-4065-b1d6-35dbc0d82ad7",
@@ -340,6 +332,14 @@
                 "id": "60deb450-0a36-4f74-9edc-e7444e015b42",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d183e9b1-4688-4177-8045-4561387fa3cb",
+            "Value": {
+                "id": "2356d629-1013-4f41-9f8f-2924dd948cfe",
+                "resourcePath": "sprites\\spr_lvl3_road_wide\\spr_lvl3_road_wide.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
