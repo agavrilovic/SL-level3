@@ -1,9 +1,10 @@
+
 //Find angle of collision
 bool_damageUp = false;
 bool_damageDown = false;
 bool_damageBack = false;
 bool_damageFront = false;
-int_directionTowardsCollider = point_direction(x,y, other.x, other.y);
+int_directionTowardsCollider = point_direction(x+sprite_width/2,y, other.x, other.y);
 if ((int_directionTowardsCollider > 30 ) && (int_directionTowardsCollider < 150 )) other.bool_below = true; bool_damageUp = true;
 if ((int_directionTowardsCollider > 210 ) && (int_directionTowardsCollider < 330 )) other.bool_above = true; bool_damageDown = true;
 if ((int_directionTowardsCollider > 150 ) && (int_directionTowardsCollider < 210 )) other.bool_front = true; bool_damageBack = true;
@@ -24,32 +25,17 @@ if (bool_damageBack && !other.bool_crashed){
 	int_directionalHealthBack -=1;	
 }
 
-// Stick the player as close as possible to the other wreck
-scr_lvl3_zalijepi(int_directionTowardsCollider,other);
 	
-// Either the camera moves on speeding up the road or stops and focuses on the crash
-if (obj_lvl3_controller.bool_stopCameraWhenCollided == true) {
-	obj_lvl3_controller.int_roadSpeed = 0;
-	obj_lvl3_road.int_hsp = obj_lvl3_controller.int_roadSpeed;
-}
-	
-// Player no longer follows camera, no longer moves, no longer changes angle
-//bool_movingWithCamera = false;
-//int_speed = 0;
-//int_angleSpeed = 0;
-//int_hsp = obj_lvl3_controller.int_roadSpeed;
-	
-// Car no longer moves (set speed to speed of the road), also set it to crashed
-// V2: CAR SPINS OUT
+// Car hits the brakes, also set it to crashed
 with(other) {
-	//int_hsp = obj_lvl3_controller.int_roadSpeed; 
 	if (bool_crashed == false) {
-		int_hsp -= 15;
 		bool_crashed = true;
 	}
 }
 
+
 // Other objects (which are not crashed yet) should move along the same/new road speed
+// This applies to objects which are NOT using physics
 if (obj_lvl3_controller.bool_stopCameraWhenCollided == true) {
 	with (obj_objectOnRoad) {
 		if (bool_crashed == false) {
@@ -57,8 +43,4 @@ if (obj_lvl3_controller.bool_stopCameraWhenCollided == true) {
 		}
 	}
 }
-	
-// Restart game after animation is done
-if (alarm[0] == -1) {
-	alarm[0] = room_speed*4;
-}
+

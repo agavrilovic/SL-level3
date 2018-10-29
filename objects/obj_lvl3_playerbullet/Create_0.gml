@@ -4,5 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-int_bulletSpeed = 50;
+int_bulletImpulse = 10000;
 
