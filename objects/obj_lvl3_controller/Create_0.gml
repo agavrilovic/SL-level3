@@ -8,7 +8,7 @@ if (room != room0) {
 }
 
 // Basic gameplay variables
-bool_stopCameraWhenCollided = true;
+bool_stopCameraWhenCollided = false;
 bool_followPlayerWithCamera = false;
 
 int_joystick = -1;
