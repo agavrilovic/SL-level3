@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "4a0c25e3-f184-4475-8e36-fbc8b9720b20",
+            "Value": {
+                "id": "f8d5fdf7-c907-4d4b-8ea9-413116cdc47f",
+                "resourcePath": "objects\\obj_bounds\\obj_bounds.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "50b4269c-863c-42f6-9dc8-024de2ff3b9a",
             "Value": {
                 "id": "55d0f881-b33f-4065-b1d6-35dbc0d82ad7",

@@ -24,3 +24,4 @@ int_directionalHealthDown = 3;
 int_directionalHealthBack = 3;
 int_directionalHealthFront = 3;
 
+depth = -100;

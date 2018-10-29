@@ -1,0 +1,1 @@
+phy_speed_x = obj_lvl3_controller.int_basespeed;

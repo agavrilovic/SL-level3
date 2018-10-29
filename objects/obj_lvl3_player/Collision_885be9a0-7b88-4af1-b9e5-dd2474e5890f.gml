@@ -1,26 +1,39 @@
-//Find angle of collision
-int_directionTowardsCollider = point_direction(x,y, other.x, other.y);
-	
-// Stick the player as close as possible to the other wreck
-scr_lvl3_zalijepi(int_directionTowardsCollider,other);
-	
-// Either the camera moves on speeding up the road or stops and focuses on the crash
-if (obj_lvl3_controller.bool_stopCameraWhenCollided == true) {
-	obj_lvl3_controller.int_roadSpeed = 0;
-	obj_lvl3_road.int_hsp = obj_lvl3_controller.int_roadSpeed;
+
+if (!other.bool_hasCollided){
+	with (other){
+		bool_hasCollided = true;
+		alarm[0] = 2;
+	}
+
+	//Find angle of collision
+	bool_damageUp = false;
+	bool_damageDown = false;
+	bool_damageBack = false;
+	bool_damageFront = false;
+	int_directionTowardsCollider = point_direction(x,y, other.x, other.y);
+	if ((int_directionTowardsCollider > 30 ) && (int_directionTowardsCollider < 150 )) other.int_healthBelow -=1; bool_damageUp = true;
+	if ((int_directionTowardsCollider > 210 ) && (int_directionTowardsCollider < 330 )) other.int_healthAbove -=1; bool_damageDown = true;
+	if ((int_directionTowardsCollider > 150 ) && (int_directionTowardsCollider < 210 )) other.int_healthFront -=1; bool_damageBack = true;
+	if ((int_directionTowardsCollider > 330 ) || (int_directionTowardsCollider < 30 )) other.int_healthBack -=1; bool_damageFront = true;
+
+	//Decrease directional health
+	if (bool_damageUp && !other.bool_crashed){
+		int_directionalHealthUp -=1;	
+	}
+	show_debug_message(string(int_directionalHealthUp))
+	if (bool_damageDown && !other.bool_crashed){
+		int_directionalHealthDown -=1;	
+	}
+	if (bool_damageFront && !other.bool_crashed){
+		int_directionalHealthFront -=1;	
+	}
+	if (bool_damageBack && !other.bool_crashed){
+		int_directionalHealthBack -=1;	
+	}
+
+
 }
 	
-// Player no longer follows camera, no longer moves, no longer changes angle
-bool_movingWithCamera = false;
-int_speed = 0;
-int_angleSpeed = 0;
-int_hsp = obj_lvl3_controller.int_roadSpeed;
-	
-// Car no longer moves (set speed to speed of the road), also set it to crashed
-with(other) {
-	int_hsp = obj_lvl3_controller.int_roadSpeed; 
-	bool_crashed = true;
-}
 
 // Other objects (which are not crashed yet) should move along the same/new road speed
 if (obj_lvl3_controller.bool_stopCameraWhenCollided == true) {
@@ -31,7 +44,3 @@ if (obj_lvl3_controller.bool_stopCameraWhenCollided == true) {
 	}
 }
 	
-// Restart game after animation is done
-if (alarm[0] == -1) {
-	alarm[0] = room_speed*4;
-}
